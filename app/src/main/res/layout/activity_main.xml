@@ -7,26 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.example.week7day2hw.Triangle
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_margin="10dp"
-        app:triangle_position="left"
-        app:triangle_color="#FFEB3B"/>
-
-    <com.example.week7day2hw.Triangle
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_margin="10dp"
-        app:triangle_position="down"
-        app:triangle_color="#673AB7"/>
-
-    <com.example.week7day2hw.Triangle
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_margin="10dp"
-        app:triangle_position="right"
-        app:triangle_color="#F44336"/>
 
     <com.example.week7day2hw.Triangle
         android:id="@+id/viewOfTriangle"
